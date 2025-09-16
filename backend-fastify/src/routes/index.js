@@ -4,6 +4,9 @@ import { propertiesRoutes } from "./properties/index.js";
 import { enquiriesRoutes } from "./enquiries/index.js";
 import { activitiesRoutes } from "./activity/index.js";
 import { notificationsRoutes } from "./notifications/index.js";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 /**
  * 
